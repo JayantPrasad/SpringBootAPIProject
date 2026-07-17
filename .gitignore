@@ -1,3 +1,6 @@
+
+# Ignore any application.properties files (local credentials/configs)
+**/application.properties
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar

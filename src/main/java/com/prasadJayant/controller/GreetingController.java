@@ -20,6 +20,7 @@ public class GreetingController {
 	public Greeting greeting(@RequestParam(value = "name") String name) {
 		greeting.setContent("Hey I am learning Spring Boot " + name);
 		greeting.setId(counter.incrementAndGet());
+		
 		return greeting;
 
 	}
